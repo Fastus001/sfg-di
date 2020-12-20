@@ -13,9 +13,6 @@ public class SfgDiApplication {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SfgDiApplication.class, args);
 
-
-
-
 		PetController petController = ctx.getBean("petController", PetController.class);
 
 		FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
