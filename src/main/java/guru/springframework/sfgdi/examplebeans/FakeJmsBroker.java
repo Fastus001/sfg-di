@@ -1,9 +1,10 @@
 package guru.springframework.sfgdi.examplebeans;
 
 /**
- * Author Tom - created - 18.12.2020
+ * Created by Tom - 20.12.2020
  */
-public class FakeDataSource {
+public class FakeJmsBroker {
+    
     private String username;
     private String password;
     private String url;
